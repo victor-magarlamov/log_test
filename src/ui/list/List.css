@@ -1,0 +1,32 @@
+.list {
+  list-style-type: none;
+  height: auto;
+  max-height: 1000px;
+  transition: max-height .4s ease-out;
+}
+
+.list--bordered {
+  border: 1px solid #eee;
+}
+
+.list--collapsed {
+  max-height: 4rem;
+  overflow: hidden;
+}
+
+.list__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.list--reversed > .list__inner {
+  flex-direction: column-reverse;
+}
+
+.list--striped > .list__inner > .list__item:nth-child(odd) {
+  background: aliceblue;
+}
+
+.list--divided > .list__item {
+  border-bottom: 1px solid silver;
+}

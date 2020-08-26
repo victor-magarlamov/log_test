@@ -1,0 +1,7 @@
+.grid__column {
+  flex-basis: 100%;
+}
+
+.grid__column--width-20 {
+  flex-basis: 20%;
+}

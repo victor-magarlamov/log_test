@@ -1,0 +1,13 @@
+.grid {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.grid--direction-row {
+  flex-direction: row;
+}
+
+.grid--direction-column {
+  flex-direction: column;
+}

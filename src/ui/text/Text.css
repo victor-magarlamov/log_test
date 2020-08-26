@@ -1,0 +1,10 @@
+.text {
+  font-size: 1.4rem;
+}
+
+.text--highlight {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}

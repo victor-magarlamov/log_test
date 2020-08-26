@@ -1,0 +1,21 @@
+.menu__item {
+  border: 1px solid #eee;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.menu__item--right {
+  margin-left: auto;
+}
+
+.menu__item--clickable {
+  cursor: pointer;
+}
+
+.menu__item:hover {
+  background: aliceblue;
+}

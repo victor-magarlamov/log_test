@@ -1,0 +1,11 @@
+.table__column {
+  padding: 0 1rem;
+}
+
+.table__column--right {
+  text-align: right;
+}
+
+.table__column--center {
+  text-align: center;
+}

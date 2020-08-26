@@ -1,0 +1,9 @@
+.table__row {
+  line-height: 4rem;
+  white-space: nowrap;
+  border-bottom: 1px solid #eee;
+}
+
+.table_row:nth-child(even) {
+  background: #ece9e9;
+}

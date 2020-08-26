@@ -1,0 +1,5 @@
+.project-list {
+  height: 90%;
+  overflow: auto;
+  border: 1px solid #eee;
+}

@@ -1,0 +1,16 @@
+.log-table {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  overflow: auto;
+}
+
+.log-table__loader {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  color: silver;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  line-height: 2rem;
+}

@@ -1,0 +1,40 @@
+.list__item {
+  line-height: 4rem;
+  padding: 0 1rem;
+  background: white;
+  transition: all .3s ease-out;
+}
+
+.list__item--header {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: skyblue;
+  color: white;
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+}
+
+.list__item--sticky {
+  position: sticky;
+  top: 0;
+}
+
+.list__item--clickable {
+  cursor: pointer;
+}
+
+.list__item--selected,
+.list__item:not(.list__item--header):hover {
+  background: aliceblue;
+}
+
+.list__item--selected::before,
+.list__item:not(.list__item--header):hover::before {
+  content: '';
+  display: inline-block;
+  width: .5rem;
+  height: .5rem;
+  background: skyblue;
+  border-radius: 50%;
+  margin-right: 1rem;
+}

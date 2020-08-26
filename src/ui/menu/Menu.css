@@ -1,0 +1,6 @@
+.menu {
+  display: flex;
+  flex-derection: row;
+  border: 1px solid #eee;
+  height: 4rem;
+}
